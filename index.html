@@ -314,7 +314,7 @@
 
 
 
-    <div class="modal">
+    <div class="modal" class="is-open">
     <div class="modal-content">
      <div class="close-div">
         <svg class="close-icon">
@@ -357,12 +357,26 @@
     </div>
     <div class="form-input">
         <label for="comment">
-         Comment <textarea  class="modal-content-input" name="comment" id="comment" rows="6">Text input</textarea>
+         Comment <textarea  class="modal-content-textarea" name="comment" id="comment" rows="6">Text input</textarea>
         </label>
      </div> 
-     <div class="form-input">
-        <input type="checkbox">
-        <checkbox class="form-checkbox"> I accept the terms and the conditions of <span class="privacyp">Privacy Policy</span></checkbox>
+     <div class="form-checkbox">
+    
+        
+    <label class="modal-form-label" > 
+        <input 
+        class="modal-form-checkbox"
+        type="checkbox"
+        name="terms"
+        id="terms" />
+        
+        <div class="modal-form-checkbox-wrapper">
+        <svg class="icon-checkbox">
+          <use xlink:href="./images/icons.svg/symbol-defs2.svg#icon-checkmark"></use>
+          </svg>
+        </div>
+    <p class="checkbox-p">I accept the terms and conditions of the Privacy Policy</p>
+    </label>
     </div>  
     <div>
         <button type="submit" class="send-btn">Send</button>

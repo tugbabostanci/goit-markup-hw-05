@@ -1,7 +1,7 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 <symbol id="icon-close" viewBox="0 0 32 32">
-<path fill="#e7e9fc" style="fill: var(--color1, #e7e9fc)" d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+<path  d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
 <path fill="none" stroke="#000" style="stroke: var(--color2, #000)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.3333" d="M31.333 16c0 8.468-6.865 15.333-15.333 15.333s-15.333-6.865-15.333-15.333c0-8.468 6.865-15.333 15.333-15.333s15.333 6.865 15.333 15.333z"></path>
 <path fill="#2e2f42" style="fill: var(--color3, #2e2f42)" d="M21.333 11.741l-1.074-1.074-4.259 4.259-4.259-4.259-1.074 1.074 4.259 4.259-4.259 4.259 1.074 1.074 4.259-4.259 4.259 4.259 1.074-1.074-4.259-4.259 4.259-4.259z"></path>
 </symbol>
@@ -28,6 +28,12 @@
 </symbol>
 <symbol id="icon-person-black1" viewBox="0 0 32 32">
 <path d="M16 16c2.947 0 5.333-2.387 5.333-5.333s-2.387-5.333-5.333-5.333c-2.947 0-5.333 2.387-5.333 5.333s2.387 5.333 5.333 5.333zM16 18.667c-3.56 0-10.667 1.787-10.667 5.333v1.333c0 0.733 0.6 1.333 1.333 1.333h18.667c0.733 0 1.333-0.6 1.333-1.333v-1.333c0-3.547-7.107-5.333-10.667-5.333z"></path>
+</symbol>
+<symbol id="icon-checkmark" viewBox="0 0 32 32">
+<path d="M27 4l-15 15-7-7-5 5 12 12 20-20z"></path>
+</symbol>
+<symbol id="icon-checkmark2" viewBox="0 0 32 32">
+<path d="M12.42 28.678l-12.433-12.238 6.168-6.071 6.265 6.167 13.426-13.214 6.168 6.071-19.594 19.285zM3.372 16.441l9.048 8.905 16.208-15.953-2.782-2.739-13.426 13.214-6.265-6.167-2.782 2.739z"></path>
 </symbol>
 </defs>
 </svg>
