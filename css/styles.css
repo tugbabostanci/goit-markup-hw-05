@@ -486,7 +486,7 @@ a:hover, a:focus {
   }
 
 
-.modal {
+.modal-is-open {
     position: fixed;
 
     top: 0;
@@ -499,6 +499,7 @@ a:hover, a:focus {
     
     justify-content: center;
     align-items: center;
+    
 }
  
 
@@ -542,7 +543,7 @@ a:hover, a:focus {
 }
 
 .form-text {
-    padding: 120px 24px 0 24px;
+    padding: 120px 24px 12px 24px;
     font-weight: bold;
     
 }
@@ -572,18 +573,16 @@ a:hover, a:focus {
     border-radius: 4px;
      border: 1px solid #2E2F4266 ; 
 }
-.modal-content-input:hover, 
-.modal-content-input-:focus  {
-   border-color: #4D5AE5;
-   transition: border-color 0.3s ease-in-out;
+
    
+
+.modal-content-input:hover {
+   border-color: #4D5AE5;
+    
 }
-.modal-content-textarea:hover,
-.modal-content-textarea:focus {
-    border-color: #4D5AE5;
-}
+
 .icon {
-    fill: #2e2f42;
+    
     height: 24px;
     width: 18px;
     position: absolute;
@@ -591,11 +590,20 @@ a:hover, a:focus {
     left: 16px;
     transition: fill 0.3s ease-in-out;
 
+    transform:  fill #4D5AE5;
+
 }
-.icon:hover,
-.icon:focus {
-    fill:  #4D5AE5;
+.form-input-label:focus-within {
+    color:  #4D5AE5;
+    fill: #4D5AE5;
 }
+.icon:hover {
+    fill: #4D5AE5;
+}
+.icon:focus-within {
+    fill: #4D5AE5;
+}
+
 .modal-content-input-wrapper {
     position: relative;
 }
