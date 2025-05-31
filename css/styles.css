@@ -486,8 +486,15 @@ a:hover, a:focus {
   }
 
 
-.modal-is-open {
-    position: fixed;
+.modal {
+
+    display: none;
+    
+}
+ 
+.is-open {
+    display: flex;
+     position: fixed;
 
     top: 0;
     left: 0;
@@ -495,14 +502,10 @@ a:hover, a:focus {
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
 
-    display: flex;
-    
-    justify-content: center;
+     justify-content: center;
     align-items: center;
     
 }
- 
-
     
 .modal-form {
     display: flex;
@@ -558,7 +561,7 @@ a:hover, a:focus {
     width: 360px;
     height: 40px;
     padding: 4px;
-    padding-left: 10px;
+    padding-left: 36px;
     border-radius: 4px;
      border: 1px solid #2E2F4266 ;
      
@@ -589,6 +592,7 @@ a:hover, a:focus {
     top: 25%;
     left: 16px;
     transition: fill 0.3s ease-in-out;
+    
 
     transform:  fill #4D5AE5;
 
