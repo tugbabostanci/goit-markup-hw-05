@@ -489,12 +489,7 @@ a:hover, a:focus {
 .modal {
 
     display: none;
-    
-}
- 
-.is-open {
-    display: flex;
-     position: fixed;
+    position: fixed;
 
     top: 0;
     left: 0;
@@ -504,6 +499,12 @@ a:hover, a:focus {
 
      justify-content: center;
     align-items: center;
+    
+    
+}
+ 
+.is-open {
+    display: flex;
     
 }
     
